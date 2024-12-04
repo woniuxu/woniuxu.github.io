@@ -40,6 +40,9 @@ params:
   showtoc: false
   tocopen: false
 
+  busuanzi:
+    enable: true
+
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
@@ -82,13 +85,13 @@ params:
     - name: github
       url: "https://github.com/"
 
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
+        #analytics:
+        #  google:
+        #    SiteVerificationTag: "XYZabc"
+        #  bing:
+        #    SiteVerificationTag: "XYZabc"
+        #  yandex:
+        #    SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -135,3 +138,10 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+    #
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
