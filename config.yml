@@ -124,10 +124,19 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    - identifier: woniuxu
-      name: woniuxu
-      url: https://woniuxu.github.io
+    - identifier: archives
+      name: archives
+      url: /archives/
       weight: 30
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 40
+ 
+        #- identifier: woniuxu
+        #  name: woniuxu
+        #  url: https://woniuxu.github.io
+        #  weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
